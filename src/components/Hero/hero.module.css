@@ -1,0 +1,58 @@
+.landingPage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: var(--faded-blue);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    /* padding-bottom: 20rem; */
+    background-image: url(/images/clouds.jpg);
+}
+
+.heroDescription {
+    position: relative;
+    max-width: 35rem;
+    height: 400px;
+    padding: 1rem;
+    overflow-wrap: break-word;     /* Wrap long words */
+    word-break: break-word;        /* Break very long words */
+    box-sizing: border-box;        /* Ensure padding doesn't increase width */
+    overflow: hidden;  
+}
+
+/* @media (max-width: 553px) {
+    #hero-description h1 {
+        font-size: 3rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    #hero-description p {
+        font-size: small !important;
+    }
+} */
+
+.heroDescription  h1 {
+    font-size: 4em;
+    margin-bottom: 1rem;
+}
+
+.heroDescription  p {
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hero {
+    position: relative;
+    max-height: 500px;
+    max-width: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    margin-bottom: 4rem;
+}

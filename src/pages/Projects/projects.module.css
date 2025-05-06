@@ -1,0 +1,11 @@
+.projectsSection {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--faded-blue);
+    padding: 4rem;
+}

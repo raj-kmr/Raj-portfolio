@@ -1,0 +1,26 @@
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: var(--faded-blue);
+    display: flex;
+    align-items: end;
+    padding: 2rem;
+    margin-top: auto;
+    box-sizing: border-box;
+    border-top: .5px solid var(--gray);
+}
+
+.footerContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLinks {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
