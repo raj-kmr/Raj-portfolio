@@ -17,7 +17,7 @@ function Hero() {
                 </div>
 
                 <div className={styles.hero}>
-                    <img src="/images/pfpghibli.png" className={styles.heroImg} height="500px" alt="" />
+                    <img src="/images/pfpghibli.png" className={styles.heroImg}  alt="" />
                 </div>
             </section>
         </>

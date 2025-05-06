@@ -10,6 +10,26 @@
     padding: 4rem;
 }
 
+@media (max-width: 900px) {
+    .aboutSection {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 580px) {
+    .aboutSection {
+        padding: 0rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 3rem !important;
+    }
+}
+
+
+
 .heading {
     font-size: 4rem;
 }

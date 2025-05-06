@@ -11,8 +11,8 @@ const ProjectCard = () => {
                     <div className={styles.projectDetails} key={project.id}>
                         <div className={styles.projectCard} >
                             <a href={project.liveDemo}>
-                                <div className={styles.cardImage}>
-                                    <img src={project.image} alt={project.title} height="200px" width="400px" />
+                                <div className={styles.imgContainer}>
+                                    <img src={project.image} className={styles.cardImage} alt={project.title} />
                                 </div>
                                 <h3>{project.title}</h3>
                             </a>
